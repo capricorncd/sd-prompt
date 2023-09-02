@@ -1,6 +1,4 @@
-from utils.read_img_sd_info import read_img_sd_info
-
+from generator import handle_images
 
 if __name__ == '__main__':
-    res = read_img_sd_info('static/1.png')
-    print(res)
+    handle_images('input')
